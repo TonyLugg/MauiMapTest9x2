@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMapTest.MapPage1"
+             Title="MapPage1">
+    <Grid x:Name="grdContent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <HorizontalStackLayout Spacing="5" Padding="5">
+            <Button Text="Mode" Clicked="btnMode_Clicked" />
+        </HorizontalStackLayout>
+        <!--<maps:Map x:Name="map" Grid.Row="1" MapClicked="map_Clicked" />-->
+    </Grid>
+</ContentPage>
